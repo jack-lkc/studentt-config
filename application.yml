@@ -1,4 +1,4 @@
----#定义8000prod
+--- #定义8000prod
 server:
   port: 8000
   servlet:
@@ -28,7 +28,7 @@ mybatis-plus:
   mapper-locations: classpath:/mybatis/mappers/*.xml
   configuration:
     map-underscore-to-camel-case: true  #自动开启驼峰规则映射
----#8005端口定义dev
+--- #8005端口定义dev
 server:
   port: 8005
   servlet:
